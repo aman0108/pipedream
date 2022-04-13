@@ -1,0 +1,90 @@
+@@ -189,7 +189,6 @@ section > h2 {
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
+	font-size: 40px;
+	width: 200px;
+	text-align: center;
+}
+@@ -201,6 +200,15 @@ section > p {
+div > h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 175%;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+section, section > h2 {
+	border: 1px solid black;
+}
+
+.row {
+}
+#section-1 {
+	background-color: #00E1EF;
+}
+#section-2 {
+	background-color: #00E1FF;
+}
+#section-3 {
+	background-color: #80D7FF;
+}
+#section-1 > h2 {
+	background-color: #FF8880;
+}
+#section-2 > h2 {
+	background-color: #FF80AA;
+}
+#section-3 > h2 {
+	background-color: #EC80FF;
+}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Simple Responsive Webpage</title>
+</head>
+<body>
+	<div>
+		<h1>Our Menu</h1>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<section id="section-1">
+				<h2>
+					Beef
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<section id="section-2">
+				<h2>
+					Chicken
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+		<div class="col-sm-12 col-md-12 col-lg-4">
+			<section id="section-3">
+				<h2>
+					Sushi
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+				</p>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
